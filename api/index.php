@@ -1,424 +1,642 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dev 101</title>
 
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Portfolio | Développeuse Full Stack</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
     <style>
-
-        .form-group {
-    display: flex;
-    align-items: center;
-    margin-bottom: 12px;
-}
-
-label {
-    width: 150px; /* 👈 même largeur pour tous */
-    font-size: 14px;
-    color: #cbd5f5;
-}
-
-.input {
-    width: 250px;
-    padding: 8px;
-    border-radius: 6px;
-    border: none;
-    background: #e2e8f0;
-}
         body {
-            margin: 0;
-            font-family: 'Poppins', sans-serif;
-            background: #0f172a;
-            color: white;
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #212529;
         }
 
-        /* HERO SECTION */
+        /* NAVBAR */
+        .navbar {
+            background-color: #ffffff;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            color: #6c63ff !important;
+        }
+
+        .nav-link {
+            font-weight: 500;
+            margin-left: 15px;
+        }
+
+        .nav-link:hover {
+            color: #6c63ff;
+        }
+
+        /* HERO */
         .hero {
-            position: relative;
-            height: 60vh;
-            background: url('/cover.png') center/cover no-repeat;
+            min-height: 90vh;
             display: flex;
             align-items: center;
-            justify-content: center;
-        }
-
-        .overlay {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            background: rgba(0,0,0,0.6);
-        }
-
-        .hero-content {
-            position: relative;
-            text-align: center;
-            z-index: 2;
+            background: linear-gradient(135deg, #f8f9fa, #eeeaff);
         }
 
         .hero h1 {
-            font-size: 3rem;
-            margin: 0;
+            font-size: 3.5rem;
+            font-weight: bold;
+        }
+
+        .hero h1 span {
+            color: #6c63ff;
         }
 
         .hero p {
-            font-size: 1.2rem;
-            color: #cbd5f5;
+            font-size: 1.15rem;
+            color: #666;
+            line-height: 1.8;
         }
 
-        /* CONTENT */
-        .container {
-            padding: 40px 20px;
-        }
-
-        .card {
-            background: #1e293b;
-            padding: 20px;
-            margin: 20px auto;
-            border-radius: 15px;
-            max-width: 600px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-        }
-
-        h2 {
-            color: #38bdf8;
-        }
-
-        a {
-            text-decoration: none;
-        }
-
-        .btn {
-            display: inline-block;
-            margin-top: 10px;
-            padding: 10px 20px;
-            background: #38bdf8;
-            color: black;
+        .btn-main {
+            background-color: #6c63ff;
+            color: white;
+            padding: 12px 25px;
             border-radius: 8px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 15px;
+        }
+
+        .btn-main:hover {
+            background-color: #554de0;
+            color: white;
+        }
+
+        .btn-outline-main {
+            border: 2px solid #6c63ff;
+            color: #6c63ff;
+            padding: 10px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 15px;
+            margin-left: 10px;
+        }
+
+        .btn-outline-main:hover {
+            background-color: #6c63ff;
+            color: white;
+        }
+
+        /* IMAGE */
+        .profile-img {
+            width: 320px;
+            height: 320px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 8px solid white;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+
+        /* SECTIONS */
+        section {
+            padding: 80px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .section-title h2 {
             font-weight: bold;
+        }
+
+        .section-title span {
+            color: #6c63ff;
+        }
+
+        /* ABOUT */
+        .about-card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.07);
+        }
+
+        /* SKILLS */
+        .skill-card {
+            background: white;
+            padding: 25px;
+            text-align: center;
+            border-radius: 15px;
+            height: 100%;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.07);
             transition: 0.3s;
         }
 
-        .btn:hover {
-            background: #0ea5e9;
+        .skill-card:hover {
+            transform: translateY(-8px);
+        }
+
+        .skill-card i {
+            font-size: 40px;
+            color: #6c63ff;
+            margin-bottom: 15px;
+        }
+
+        /* PROJECTS */
+        .project-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            height: 100%;
+            transition: 0.3s;
+        }
+
+        .project-card:hover {
+            transform: translateY(-8px);
+        }
+
+        .project-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .project-content {
+            padding: 25px;
+        }
+
+        .badge-tech {
+            background-color: #eeeaff;
+            color: #6c63ff;
+            padding: 6px 10px;
+            border-radius: 20px;
+            font-size: 13px;
+            margin-right: 5px;
+        }
+
+        /* CONTACT */
+        .contact-box {
+            background: #6c63ff;
+            color: white;
+            padding: 50px;
+            border-radius: 20px;
+            text-align: center;
+        }
+
+        .contact-box a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* FOOTER */
+        footer {
+            background-color: #212529;
+            color: white;
+            padding: 25px;
+            text-align: center;
         }
 
         /* RESPONSIVE */
-        @media(max-width: 768px){
+        @media (max-width: 768px) {
+            .hero {
+                text-align: center;
+                padding: 50px 0;
+            }
+
             .hero h1 {
-                font-size: 2rem;
+                font-size: 2.5rem;
+            }
+
+            .profile-img {
+                width: 230px;
+                height: 230px;
+                margin-top: 40px;
+            }
+
+            .btn-outline-main {
+                margin-left: 0;
             }
         }
     </style>
 </head>
+
 <body>
 
-<!-- HERO -->
-<section class="hero">
-    <div class="overlay"></div>
-    <div class="hero-content">
-        <h1>Welcome Dev 101</h1>
-        <p>Build • Learn • Deploy 🚀</p>
+<!-- ================= NAVBAR ================= -->
+
+<nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+
+        <a class="navbar-brand" href="#">
+            <i class="fa-solid fa-code"></i> Hiba
+        </a>
+
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#accueil">Accueil</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#apropos">À propos</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#competences">Compétences</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#projets">Projets</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+
+            </ul>
+
+        </div>
     </div>
+</nav>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="accueil">
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <div class="col-lg-7">
+
+                <p class="text-primary fw-bold">
+                    Bonjour, je suis
+                </p>
+
+                <h1>
+                    Hiba <span>Hamjan</span>
+                </h1>
+
+                <h3 class="mt-3">
+                    Stagiaire en Développement Full Stack
+                </h3>
+
+                <p class="mt-3">
+                    Je suis actuellement en deuxième année de formation
+                    en développement digital. Passionnée par la création
+                    d'applications web modernes, je développe mes compétences
+                    en Front-End et Back-End.
+                </p>
+
+                <a href="#projets" class="btn-main">
+                    <i class="fa-solid fa-folder-open"></i>
+                    Voir mes projets
+                </a>
+
+                <a href="#contact" class="btn-outline-main">
+                    Me contacter
+                </a>
+
+            </div>
+
+            <div class="col-lg-5 text-center">
+
+                <!-- Remplace cette image par ta photo -->
+                <img src="images/profile.jpg"
+                     alt="Photo de profil"
+                     class="profile-img">
+
+            </div>
+
+        </div>
+
+    </div>
+
 </section>
 
-<!-- CONTENT -->
-<div class="container">
-<?php
 
-include_once 'Traitements.php';
+<!-- ================= À PROPOS ================= -->
 
-$groupe = "Dev 101";
-$plt = "Vercel";
+<section id="apropos">
 
-echo "<div class='card'>";
-echo "<h2>Premier site de $groupe sur $plt</h2>";
-echo "</div>";
+    <div class="container">
 
+        <div class="section-title">
+            <h2>À <span>propos de moi</span></h2>
+        </div>
 
-// Cours PHP
-echo "<div class='card'>";
-echo "<h2>Cours PHP</h2>";
-echo "<a href='/php.pptx' class='btn'>Telecharger Le cours</a>";
-echo "</div>";
+        <div class="row justify-content-center">
 
-// Communication
-echo "<div class='card'>";
-echo "<h2>Communication via formulaire :</h2>";
-?>
-<form method="POST" action="login.php" class="form">
-    
-    <div class="form-group">
-        <label>Login:</label>
-        <input type="text" name="log" class="input" />
+            <div class="col-lg-9">
+
+                <div class="about-card">
+
+                    <h4 class="mb-3">
+                        👩‍💻 Qui suis-je ?
+                    </h4>
+
+                    <p>
+                        Je suis une stagiaire en deuxième année de
+                        développement digital, spécialisée dans le
+                        développement Full Stack.
+                    </p>
+
+                    <p>
+                        Ma formation m'a permis d'acquérir des connaissances
+                        en développement Front-End, Back-End, bases de données
+                        et conception d'applications web.
+                    </p>
+
+                    <p class="mb-0">
+                        Je suis actuellement à la recherche d'une opportunité
+                        de stage qui me permettra de mettre en pratique mes
+                        connaissances, d'apprendre de nouvelles technologies
+                        et de participer à des projets professionnels.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
     </div>
 
-    <div class="form-group">
-        <label>Password:</label>
-        <input type="password" name="pass" class="input" />
+</section>
+
+
+<!-- ================= COMPÉTENCES ================= -->
+
+<section id="competences" class="bg-light">
+
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Mes <span>compétences</span></h2>
+            <p>Les technologies que j'utilise</p>
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-md-4 col-lg-3">
+                <div class="skill-card">
+                    <i class="fa-brands fa-html5"></i>
+                    <h5>HTML5</h5>
+                    <p>Création de structures web modernes.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-lg-3">
+                <div class="skill-card">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h5>CSS3</h5>
+                    <p>Design et mise en page responsive.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-lg-3">
+                <div class="skill-card">
+                    <i class="fa-brands fa-js"></i>
+                    <h5>JavaScript</h5>
+                    <p>Interactions et fonctionnalités dynamiques.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-lg-3">
+                <div class="skill-card">
+                    <i class="fa-brands fa-php"></i>
+                    <h5>PHP</h5>
+                    <p>Développement Back-End et CRUD.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-lg-3">
+                <div class="skill-card">
+                    <i class="fa-solid fa-database"></i>
+                    <h5>MySQL</h5>
+                    <p>Gestion et conception de bases de données.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-lg-3">
+                <div class="skill-card">
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <h5>Bootstrap</h5>
+                    <p>Création d'interfaces responsive.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-lg-3">
+                <div class="skill-card">
+                    <i class="fa-brands fa-git-alt"></i>
+                    <h5>Git / GitHub</h5>
+                    <p>Gestion des versions et projets.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-lg-3">
+                <div class="skill-card">
+                    <i class="fa-solid fa-diagram-project"></i>
+                    <h5>UML</h5>
+                    <p>Conception et modélisation des applications.</p>
+                </div>
+            </div>
+
+        </div>
+
     </div>
 
-    <div class="form-actions">
-        <input type="submit" name="action1" value="connexion" class="btn" />
-        <input type="reset" value="Réinitialiser" class="btn btn-secondary" />
+</section>
+
+
+<!-- ================= PROJETS ================= -->
+
+<section id="projets">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Mes <span>projets</span></h2>
+
+            <p>
+                Quelques projets réalisés pendant ma formation
+            </p>
+
+        </div>
+
+        <div class="row g-4">
+
+            <!-- Projet 1 -->
+            <div class="col-md-6 col-lg-4">
+
+                <div class="project-card">
+
+                    <img src="images/project1.jpg"
+                         alt="Projet bibliothèque">
+
+                    <div class="project-content">
+
+                        <h4>READLY</h4>
+
+                        <p>
+                            Site web de bibliothèque permettant de consulter
+                            et louer des livres avec une fonctionnalité
+                            d'audiobooks.
+                        </p>
+
+                        <span class="badge-tech">HTML</span>
+                        <span class="badge-tech">CSS</span>
+                        <span class="badge-tech">Bootstrap</span>
+                        <span class="badge-tech">PHP</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Projet 2 -->
+            <div class="col-md-6 col-lg-4">
+
+                <div class="project-card">
+
+                    <img src="images/project2.jpg"
+                         alt="Projet gestion">
+
+                    <div class="project-content">
+
+                        <h4>Application de gestion</h4>
+
+                        <p>
+                            Application web permettant de gérer des données
+                            avec un système CRUD et une base de données MySQL.
+                        </p>
+
+                        <span class="badge-tech">PHP</span>
+                        <span class="badge-tech">PDO</span>
+                        <span class="badge-tech">MySQL</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Projet 3 -->
+            <div class="col-md-6 col-lg-4">
+
+                <div class="project-card">
+
+                    <img src="images/project3.jpg"
+                         alt="Projet portfolio">
+
+                    <div class="project-content">
+
+                        <h4>Portfolio personnel</h4>
+
+                        <p>
+                            Création de mon portfolio personnel pour présenter
+                            mon parcours, mes compétences et mes projets.
+                        </p>
+
+                        <span class="badge-tech">HTML</span>
+                        <span class="badge-tech">CSS</span>
+                        <span class="badge-tech">Bootstrap</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
     </div>
 
-</form>
-<?php
-echo "</div>";
+</section>
 
 
-// Table
-echo "<div class='card'>";
-echo "<h2>Appel Table</h2>";
-?>
-<form method="POST" action="index.php" class="form">
+<!-- ================= CONTACT ================= -->
 
-    <div class="form-group">
-        <label>nbre de lignes :</label>
-        <input type="text" name="rows" class="input" />
+<section id="contact">
+
+    <div class="container">
+
+        <div class="contact-box">
+
+            <h2>Travaillons ensemble 🚀</h2>
+
+            <p class="mt-3">
+                Vous avez un projet ou une opportunité de stage ?
+                N'hésitez pas à me contacter.
+            </p>
+
+            <div class="mt-4">
+
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:tonemail@gmail.com">
+                        tonemail@gmail.com
+                    </a>
+                </p>
+
+                <p>
+                    <i class="fa-brands fa-github"></i>
+                    <a href="#">
+                        GitHub
+                    </a>
+                </p>
+
+                <p>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <a href="#">
+                        LinkedIn
+                    </a>
+                </p>
+
+            </div>
+
+        </div>
+
     </div>
 
-    <div class="form-group">
-        <label>nbre de colonnes :</label>
-        <input type="text" name="cols" class="input" />
-    </div>
+</section>
 
-    <div class="form-actions">
-        <input type="submit" name="action2" value="dessiner" class="btn" />
-        <input type="reset" value="Réinitialiser" class="btn btn-secondary" />
-    </div>
 
-</form>
-<?php
-if(!empty($_POST['action2'])){
-    table($_POST['rows'], $_POST['cols']);
-}
-echo "</div>";
+<!-- ================= FOOTER ================= -->
 
+<footer>
 
-// Triangle form
-echo "<div class='card'>";
-echo "<h2>Appel Triangle via form</h2>";
-?>
-<form method="POST" action="index.php" class="form">
+    <p class="mb-0">
+        © 2026 Hiba Hamjan — Portfolio Développeuse Full Stack
+    </p>
 
-    <div class="form-group">
-        <label>nbre de lignes :</label>
-        <input type="text" name="rowst" class="input" />
-    </div>
+</footer>
 
-    <div class="form-actions">
-        <input type="submit" name="action3" value="dessiner" class="btn" />
-        <input type="reset" value="Réinitialiser" class="btn btn-secondary" />
-    </div>
 
-</form>
-<?php
-if(!empty($_POST['action3'])){
-    Triangle($_POST['rowst']);
-}
-echo "</div>";
-
-
-// Triangle liens
-echo "<div class='card'>";
-echo "<h2>Appel Triangle via liens hypertext</h2>";
-
-echo "<div class='links'>";
-for($i=3;$i<=10;$i++){
-    echo "<a href='index.php?action4=$i' class='link'>$i</a>***";
-}
-echo "</div>";
-
-if(!empty($_GET['action4'])){
-    Triangle($_GET['action4']);
-}
-
-echo "</div>";
-
-
-// Atelier 1
-echo "<div class='card'>";
-echo "<h2>Atelier 1</h2>";
-echo "<a href='/At1.pdf' class='btn'>Voir PDF</a>";
-echo "</div>";
-
-
-// Atelier 2
-echo "<div class='card'>";
-echo "<h2>Atelier 2-  Gestion d’un formulaire d’inscription </h2>";
-echo "<a href='/At2.pdf' class='btn'>Voir PDF</a>";
-echo "<a href='inscription.php' class='btn'>Inscription en ligne</a>";
-echo "</div>";
-
-
-// Atelier 3
-echo "<div class='card'>";
-echo "<h2>Atelier 3- Upload de fichiers en PHP</h2>";
-echo "<a href='/At3_enn.pdf' class='btn'>Ennoncé Atelier 3</a>";
-echo "<a href='/At3.pdf' class='btn'>Voir Rapport Atelier 3</a>";
-echo "<a href='https://github.com/karim-azeggouar/atelier3_dev101.git' class='btn'> <i class='fab fa-github'></i> GitHub Repo</a>";
-echo "</div>";
-
-
-
-
-// Atelier 4
-echo "<div class='card'>";
-echo "<h2>Atelier 4- Gestion des étudiants(Fichier texte + Upload photo +Recherche)</h2>";
-echo "<a href='/At4.pdf' class='btn'>Ennoncé Atelier 4</a>";
-echo "<a href='/Rapp4.pdf' class='btn'>Voir Rapport Atelier 4</a>";
-echo "<a href='https://github.com/karim-azeggouar/atel4.git' class='btn'><i class='fab fa-github'></i> GitHub Repo</a>";
-echo "</div>";
-
-
-
-
-
-// Atelier 5
-echo "<div class='card'>";
-echo "<h2>Atelier 5- Gestion des sessions, cookies</h2>";
-echo "<a href='/At5.pdf' class='btn'>Ennoncé Atelier 5</a>";
-echo "<a href='/Rapp5.pdf' class='btn'>Voir Rapport Atelier 5</a>";
-echo "<a href='https://github.com/karim-azeggouar/Atelier5.git' class='btn'><i class='fab fa-github'></i> GitHub Repo</a>";
-echo "</div>";
-
-
-
-
-// Atelier 6
-echo "<div class='card'>";
-echo "<h2>Atelier 6- la POO en PHP</h2>";
-echo "<a href='/At6.pdf' class='btn'>Ennoncé Atelier 6</a>";
-echo "<a href='#' class='btn'>Voir Rapport Atelier 6</a>";
-echo "<a href='#' class='btn'><i class='fab fa-github'></i> GitHub Repo</a>";
-echo "<a href='https://www.youtube.com/watch?v=g2iJHspJ8o4&list=PL7FOokTTayoVqF9RIdBg3E9oQCEWSE4df&index=18' class='btn'><i class='fab fa-youtube'></i> Video Youtube</a>";
-echo "</div>";
-
-
-// Atelier 7
-echo "<div class='card'>";
-echo "<h2>Atelier 7- POO en PHP avec Sessions</h2>";
-echo "<a href='/At7.pdf' class='btn'>Ennoncé Atelier 7</a>";
-echo "<a href='/Rapp7.pdf' class='btn'>Voir Rapport Atelier 7</a>";
-echo "<a href='https://github.com/karim-azeggouar/atelier7.git' class='btn'><i class='fab fa-github'></i> GitHub Repo</a>";
-echo "<a href='https://www.youtube.com/watch?v=P6CxWmIDaDM&list=PL7FOokTTayoVqF9RIdBg3E9oQCEWSE4df&index=19' class='btn'><i class='fab fa-youtube'></i> Video Youtube</a>";
-echo "</div>";
-
-
-// Atelier 8
-echo "<div class='card'>";
-echo "<h2>Atelier 8- Application E-Fruits controle continu</h2>";
-echo "<a href='/At8.pdf' class='btn'>Ennoncé Atelier 8</a>";
-echo "<a href='https://www.youtube.com/watch?v=7GhpIEdlqDQ' class='btn'><i class='fab fa-youtube'></i> Video Youtube</a>";
-echo "<a href='https://github.com/karim-azeggouar/atelier8.git' class='btn'><i class='fab fa-github'></i> GitHub Repo Local</a>";
-
-echo "<a href='https://efruits.vercel.app/acc.php' class='btn'>Mystore Efruit</a>";
-echo "<a href='https://github.com/karim-azeggouar/efruits.git' class='btn'><i class='fab fa-github'></i> GitHub Repo Vercel</a>";
-
-echo "</div>";
-
-
-
-
-// Atelier 9
-echo "<div class='card'>";
-echo "<h2>Atelier 9- Mysql PDO  : application gestion des etudiants</h2>";
-echo "<a href='/ApplicationBDD.pptx' class='btn'>Ennoncé Atelier 9</a>";
-echo "<a href='https://www.youtube.com/watch?v=Z7zkSMLm_Nk&list=PL7FOokTTayoVqF9RIdBg3E9oQCEWSE4df&index=21' class='btn'><i class='fab fa-youtube'></i> Video Youtube</a>";
-echo "<a href='https://github.com/karim-azeggouar/atelier9.git' class='btn'><i class='fab fa-github'></i> GitHub Repo Local</a>";
-
-
-echo "</div>";
-
-
-// Atelier 10
-echo "<div class='card'>";
-echo "<h2>Atelier 10-La Pagination en PHP</h2>";
-echo "<a href='/At10.pdf' class='btn'>Ennoncé Atelier 10</a>";
-echo "<a href='https://www.youtube.com/watch?v=XPzXxS_OP20&list=PL7FOokTTayoVqF9RIdBg3E9oQCEWSE4df&index=25' class='btn'><i class='fab fa-youtube'></i> Video Youtube</a>";
-echo "<a href='https://github.com/karim-azeggouar/atelier9.git' class='btn'><i class='fab fa-github'></i> GitHub Repo Local</a>";
-
-
-echo "</div>";
-
-
-
-
-
-// Atelier 11
-echo "<div class='card'>";
-echo "<h2>Atelier 11 Ajax Reponse HTML</h2>";
-echo "<a href='/At11.pdf' class='btn'>Ennoncé Atelier 11 </a>";
-echo "<a href='https://www.youtube.com/watch?v=SwKbmooc-7Y&list=PL7FOokTTayoVqF9RIdBg3E9oQCEWSE4df&index=27' class='btn'><i class='fab fa-youtube'></i> Video Youtube</a>";
-echo "<a href='https://github.com/karim-azeggouar/atelier9.git' class='btn'><i class='fab fa-github'></i> GitHub Repo Local</a>";
-
-
-echo "</div>";
-
-
-// Atelier 12
-echo "<div class='card'>";
-echo "<h2>Atelier 12 Ajax Reponse Json </h2>";
-echo "<a href='/At12.pdf' class='btn'>Ennoncé Atelier 12</a>";
-echo "<a href='https://www.youtube.com/watch?v=Yo70KPu-MYY&list=PL7FOokTTayoVqF9RIdBg3E9oQCEWSE4df&index=29' class='btn'><i class='fab fa-youtube'></i> Video Youtube</a>";
-echo "<a href='https://github.com/karim-azeggouar/atelier9.git' class='btn'><i class='fab fa-github'></i> GitHub Repo Local</a>";
-
-
-echo "</div>";
-
-
-// Atelier 13
-echo "<div class='card'>";
-echo "<h2>Atelier 13 services web </h2>";
-echo "<a href='/At13.pdf' class='btn'>Ennoncé Atelier 13</a>";
-echo "<a href='https://www.youtube.com/watch?v=WJOJH-FgtHY&list=PL7FOokTTayoVqF9RIdBg3E9oQCEWSE4df&index=30' class='btn'><i class='fab fa-youtube'></i> Video Youtube</a>";
-echo "<a href='https://github.com/karim-azeggouar/atelier9.git' class='btn'><i class='fab fa-github'></i> GitHub Repo Local</a>";
-
-
-echo "</div>";
-
-// Atelier 14
-echo "<div class='card'>";
-echo "<h2>Atelier 14- Burger_Code - </h2>";
-echo "<a href='/burger_code.pptx' class='btn'>Ennoncé Atelier 14</a>";
-echo "<a href='https://github.com/karim-azeggouar/burgercode.git' class='btn'><i class='fab fa-github'></i> GitHub Repo Local</a>";
-
-
-echo "</div>";
-
-
-
-// Atelier 15
-echo "<div class='card'>";
-echo "<h2>Atelier 15 Architecture MVC </h2>";
-echo "<a href='/At14.pdf' class='btn'>Ennoncé Atelier 15</a>";
-echo "<a href='https://github.com/karim-azeggouar/MVC.git' class='btn'><i class='fab fa-github'></i> GitHub Repo Local</a>";
-
-
-echo "</div>";
-
-
-
-// EFMs
-echo "<div class='card'>";
-echo "<h2>EFM Exemples  </h2>";
-echo "<a href='/M107_EFM_DEV_V1.docx' class='btn'>EFM1 </a>";
-echo "<a href='/gestionstagiaire_v1.sql' class='btn'>DB-EFM1 </a>";
-echo "<a href='/M107_EFM_DEV_V2.docx' class='btn'>EFM2 </a>";
-echo "<a href='/gestionproduit_v2.sql' class='btn'>DB-EFM2 </a>";
-echo "<a href='/v1.rar' class='btn'>EFM-V1 </a>";
-echo "<a href='/v2.rar' class='btn'>EFM-V2 </a>";
-echo "</div>";
-?>
-
-
-
-</div>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
