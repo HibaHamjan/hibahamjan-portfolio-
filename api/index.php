@@ -320,7 +320,7 @@
             <div class="col-lg-5 text-center">
 
                 <!-- Remplace cette image par ta photo -->
-                <img src="images/profile.jpg"
+                <img src="images/me.png"
                      alt="Photo de profil"
                      class="profile-img">
 
