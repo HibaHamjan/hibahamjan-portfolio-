@@ -257,6 +257,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#apropos">À propos</a>
                 </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="#apropos">modules</a>
+                </li>
 
                 <li class="nav-item">
                     <a class="nav-link" href="#competences">Compétences</a>
@@ -548,16 +551,15 @@
 
                 <div class="project-card">
 
-                    <img src="images/project3.jpg"
-                         alt="Projet portfolio">
+                    <img src="images/atelier-pratique-formation-immobilier-espi-montpellier.jpeg">
 
                     <div class="project-content">
 
-                        <h4>Portfolio personnel</h4>
+                        <h4>atelier immobilier</h4>
 
                         <p>
-                            Création de mon portfolio personnel pour présenter
-                            mon parcours, mes compétences et mes projets.
+                            Création d un atelier immobilier pour présenter
+                            mes connaissances, mes compétences et mes projets.
                         </p>
 
                         <span class="badge-tech">HTML</span>
@@ -596,8 +598,8 @@
 
                 <p>
                     <i class="fa-solid fa-envelope"></i>
-                    <a href="mailto:tonemail@gmail.com">
-                        tonemail@gmail.com
+                    <a href="mailto:hibahamjan1@gmail.com">
+                        hibahamjan1@gmail.com
                     </a>
                 </p>
 
