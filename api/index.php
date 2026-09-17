@@ -1,4 +1,3 @@
-```html
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -563,11 +562,11 @@
                     <div class="module-info">
 
                         <h5>
-                            Développement Front-End
+                            Préparation d’un projet web
                         </h5>
 
                         <p>
-                            HTML5, CSS3 et création d'interfaces web.
+                            Analyse • Planification • Conception
                         </p>
 
                     </div>
@@ -591,11 +590,11 @@
                     <div class="module-info">
 
                         <h5>
-                            JavaScript
+                            Approche agile
                         </h5>
 
                         <p>
-                            DOM, événements, fonctions et interactions.
+                            Scrum • Équipe • Organisation
                         </p>
 
                     </div>
@@ -619,11 +618,11 @@
                     <div class="module-info">
 
                         <h5>
-                            Développement Back-End
+                            Gestion des données
                         </h5>
 
                         <p>
-                            PHP, sessions, formulaires et CRUD.
+                            SQL • MySQL • Base de données
                         </p>
 
                     </div>
@@ -647,11 +646,11 @@
                     <div class="module-info">
 
                         <h5>
-                            Bases de données
+                            Développement front-end
                         </h5>
 
                         <p>
-                            MySQL, requêtes SQL et gestion des données.
+                            HTML • CSS • JavaScript
                         </p>
 
                     </div>
@@ -675,11 +674,11 @@
                     <div class="module-info">
 
                         <h5>
-                            Bootstrap
+                            Développement back-end
                         </h5>
 
                         <p>
-                            Interfaces modernes et responsive design.
+                            PHP • API • Serveur
                         </p>
 
                     </div>
@@ -703,11 +702,11 @@
                     <div class="module-info">
 
                         <h5>
-                            Programmation Orientée Objet
+                            Création d’une application Cloud native
                         </h5>
 
                         <p>
-                            Classes, objets, méthodes et principes POO.
+                            Cloud • Déploiement • Services
                         </p>
 
                     </div>
@@ -731,11 +730,11 @@
                     <div class="module-info">
 
                         <h5>
-                            UML & Conception
+                            Projet de synthèse
                         </h5>
 
                         <p>
-                            Analyse, modélisation et conception des systèmes.
+                            Projet • Intégration • Réalisation
                         </p>
 
                     </div>
@@ -759,11 +758,11 @@
                     <div class="module-info">
 
                         <h5>
-                            Git & GitHub
+                            Intégration du milieu professionnel
                         </h5>
 
                         <p>
-                            Gestion des versions et collaboration sur les projets.
+                            Stage • Communication • Professionnalisme
                         </p>
 
                     </div>
@@ -1208,4 +1207,3 @@
 
 </body>
 </html>
-```
