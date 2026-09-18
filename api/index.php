@@ -554,6 +554,7 @@
             <div class="col-md-6">
 
                 <div class="module-card">
+                    <a link="public/docs/module/hiba_hamjan_atelier immobiliere.pdf">
 
                     <div class="module-icon">
                         <i class="fa-brands fa-html5"></i>
@@ -570,6 +571,7 @@
                         </p>
 
                     </div>
+</a>
 
                 </div>
 
