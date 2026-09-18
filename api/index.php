@@ -558,7 +558,7 @@
             <div class="col-md-6">
 
                 <div class="module-card">
-                    <a href="public/docs/module/m201.php"  id="lien">
+                    <a href="public/docs\module/m201.php"  id="lien">
 
                     <div class="module-icon">
                         <i class="fa-brands fa-html5"></i>
@@ -588,7 +588,7 @@
             <div class="col-md-6">
 
                 <div class="module-card">
-                    <a href="public/docs/module/m202.php"  id="lien">
+                    <a href="public/docs\module/m202.php"  id="lien">
                     <div class="module-icon">
                         <i class="fa-brands fa-js"></i>
                     </div>
@@ -616,7 +616,7 @@
             <div class="col-md-6">
 
                 <div class="module-card">
-                     <a href="public/docs/module/m203.php"  id="lien">
+                     <a href="public/docs\module/m203.php"  id="lien">
                     <div class="module-icon">
                         <i class="fa-brands fa-php"></i>
                     </div>
@@ -644,7 +644,7 @@
             <div class="col-md-6">
 
                 <div class="module-card">
-                     <a href="public/docs/module/m204.php" id="lien" >
+                     <a href="public/docs\module/m204.php" id="lien" >
                     <div class="module-icon">
                         <i class="fa-solid fa-database"></i>
                     </div>
@@ -672,7 +672,7 @@
             <div class="col-md-6">
 
                 <div class="module-card">
-                     <a href="public/docs/module/m205.php" id="lien" >
+                     <a href="public/docs\module/m205.php" id="lien" >
                     <div class="module-icon">
                         <i class="fa-brands fa-bootstrap"></i>
                     </div>
@@ -700,7 +700,7 @@
             <div class="col-md-6">
 
                 <div class="module-card">
-                     <a href="public/docs/module/m206.php" id="lien" >
+                     <a href="public/docs\module/m206.php" id="lien" >
                     <div class="module-icon">
                         <i class="fa-solid fa-code"></i>
                     </div>
@@ -728,7 +728,7 @@
             <div class="col-md-6">
 
                 <div class="module-card">
-                     <a href="public/docs/module/m207.php" id="lien" >
+                     <a href="public/docs\module/m207.php" id="lien" >
                     <div class="module-icon">
                         <i class="fa-solid fa-diagram-project"></i>
                     </div>
@@ -756,7 +756,7 @@
             <div class="col-md-6">
 
                 <div class="module-card">
-                     <a href="public/docs/module/m208.php" id="lien" >
+                     <a href="public/docs\module/m208.php" id="lien" >
                     <div class="module-icon">
                         <i class="fa-brands fa-git-alt"></i>
                     </div>
