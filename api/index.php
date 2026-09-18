@@ -569,9 +569,9 @@
                         <p>
                             Analyse • Planification • Conception
                         </p>
+                        </a>
 
                     </div>
-</a>
 
                 </div>
 
