@@ -315,6 +315,9 @@
             }
 
         }
+        #lien{
+            text-decoration:none;
+        }
 
     </style>
 </head>
@@ -448,7 +451,7 @@
 
             <div class="col-lg-5 text-center">
 
-                <img src="images/me.png"
+                <img src="images/me.jpeg"
                      alt="Photo de profil"
                      class="profile-img">
 
