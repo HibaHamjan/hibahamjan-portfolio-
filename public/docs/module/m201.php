@@ -181,7 +181,7 @@
                             <i class="fa-solid fa-file-code"></i>
                         </div>
 
-                        <h5><a link="public/docs/module/hiba_hamjan_atelier immobiliere.pdf">TD 01</a></h5>
+                        <h5><a href="public/docs/module/hiba_hamjan_atelier immobiliere.pdf">TD 01</a></h5>
 
                         <p>
                             Création d'une page web avec HTML et CSS.
