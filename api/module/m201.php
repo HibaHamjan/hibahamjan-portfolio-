@@ -7,13 +7,13 @@
 
     <title>Préparation d’un projet web | Hiba Hamjan</title>
 
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
     <style>
-
         body {
             font-family: Arial, sans-serif;
             background-color: #f8f9fa;
@@ -30,13 +30,9 @@
             color: #6c63ff !important;
         }
 
-        .nav-link:hover {
-            color: #6c63ff;
-        }
-
         .module-header {
             background: linear-gradient(135deg, #f8f9fa, #eeeaff);
-            padding: 90px 0;
+            padding: 80px 0;
             text-align: center;
         }
 
@@ -50,7 +46,7 @@
         }
 
         section {
-            padding: 70px 0;
+            padding: 60px 0;
         }
 
         .section-title {
@@ -98,8 +94,18 @@
             font-weight: bold;
         }
 
+        .work-card a {
+            text-decoration: none;
+            color: #212529;
+        }
+
+        .work-card a:hover {
+            color: #6c63ff;
+        }
+
         .work-card p {
             color: #777;
+            margin-bottom: 0;
         }
 
         .back-btn {
@@ -118,184 +124,109 @@
             padding: 25px;
             text-align: center;
         }
-
     </style>
 </head>
 
 <body>
 
     <!-- Navbar -->
-
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-
-            <a class="navbar-brand" href="../index.html">
+            <a class="navbar-brand" href="/api/index.php">
                 <i class="fa-solid fa-code"></i> Hiba
             </a>
-
         </div>
     </nav>
 
-
     <!-- Header -->
-
     <section class="module-header">
-
         <div class="container">
-
-            <h1>Préparation d’un projet web</h1>
-
-            <p>
-                Analyse • Planification • Conception
-            </p>
-
+            <h1>1. Préparation d’un projet web</h1>
+            <p>Analyse • Modélisation • Design UI/UX</p>
         </div>
-
     </section>
 
-
-    <!-- Travaux dirigés -->
-
+    <!-- SECTION 1: UML -->
     <section>
-
         <div class="container">
-
             <div class="section-title">
-
-                <h2>Travaux <span>dirigés</span></h2>
-
-                <p>
-                    Les travaux réalisés durant le module
-                </p>
-
+                <h2>Partie <span>UML</span></h2>
+                <p>Analyse et modélisation des systèmes</p>
             </div>
-
 
             <div class="row g-4">
-
-                <div class="col-md-6">
-
+                <!-- Atelier 1 UML -->
+                <div class="col-md-6 col-lg-4">
                     <div class="work-card">
-
                         <div class="work-icon">
-                            <i class="fa-solid fa-file-code"></i>
+                            <i class="fa-solid fa-diagram-project"></i>
                         </div>
-
-                        <h5><a href="public/docs/module/hiba_hamjan_atelier immobiliere.pdf">TD 01</a></h5>
-
-                        <p>
-                            Création d'une page web avec HTML et CSS.
-                        </p>
-
+                        <h5><a href="#">Atelier 1</a></h5>
+                        <p>Diagrammes de cas d'utilisation et de classes.</p>
                     </div>
-
                 </div>
 
-
-                <div class="col-md-6">
-
-                    <div class="work-card">
-
-                        <div class="work-icon">
-                            <i class="fa-solid fa-code"></i>
-                        </div>
-
-                        <h5>TD 02</h5>
-
-                        <p>
-                            Création d'une interface responsive.
-                        </p>
-
-                    </div>
-
-                </div>
-
+                <!-- يمكنك إضافة أتاليا أخرى لـ UML هنا إذا كان لديك المزيد -->
             </div>
-
         </div>
-
     </section>
 
-
-    <!-- Ateliers -->
-
+    <!-- SECTION 2: FIGMA -->
     <section class="bg-light">
-
         <div class="container">
-
             <div class="section-title">
-
-                <h2>Mes <span>ateliers</span></h2>
-
-                <p>
-                    Les ateliers pratiques réalisés
-                </p>
-
+                <h2>Partie <span>Figma</span></h2>
+                <p>Conception d'interfaces et maquetage UI/UX</p>
             </div>
-
 
             <div class="row g-4">
-
-                <div class="col-md-6">
-
+                <!-- Atelier 1 Figma -->
+                <div class="col-md-4">
                     <div class="work-card">
-
                         <div class="work-icon">
-                            <i class="fa-solid fa-laptop-code"></i>
+                            <i class="fa-brands fa-figma"></i>
                         </div>
-
-                        <h5>Atelier 01</h5>
-
-                        <p>
-                            Création d'une interface web moderne.
-                        </p>
-
+                        <h5><a href="#">Atelier 1</a></h5>
+                        <p>Initiation à Figma et création des Wireframes.</p>
                     </div>
-
                 </div>
 
-
-                <div class="col-md-6">
-
+                <!-- Atelier 2 Figma -->
+                <div class="col-md-4">
                     <div class="work-card">
-
                         <div class="work-icon">
-                            <i class="fa-solid fa-display"></i>
+                            <i class="fa-brands fa-figma"></i>
                         </div>
-
-                        <h5>Atelier 02</h5>
-
-                        <p>
-                            Mise en pratique de HTML, CSS et JavaScript.
-                        </p>
-
+                        <h5><a href="#">Atelier 2</a></h5>
+                        <p>Conception de maquettes High-Fidelity.</p>
                     </div>
-
                 </div>
 
+                <!-- Atelier 3 Figma -->
+                <div class="col-md-4">
+                    <div class="work-card">
+                        <div class="work-icon">
+                            <i class="fa-brands fa-figma"></i>
+                        </div>
+                        <h5><a href="#">Atelier 3</a></h5>
+                        <p>Prototypage interactif et composants.</p>
+                    </div>
+                </div>
             </div>
-
         </div>
-
     </section>
-
 
     <!-- Retour -->
-
     <div class="container text-center py-5">
-
-        <a href="../index.html" class="back-btn">
+        <a href="/api/index.php" class="back-btn">
             <i class="fa-solid fa-arrow-left"></i>
             Retour aux modules
         </a>
-
     </div>
 
-
+    <!-- Footer -->
     <footer>
-
         © 2026 Hiba Hamjan — Portfolio Développeuse Full Stack
-
     </footer>
 
 </body>
