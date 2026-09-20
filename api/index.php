@@ -337,7 +337,8 @@
                 <a href="#contact" class="btn-outline-main">Me contacter</a>
             </div>
             <div class="col-lg-5 text-center">
-                <img src="images/me.jpeg" alt="Photo de profil" class="profile-img">
+                <!-- Chemin vers l'image dans public/images/ -->
+                <img src="/public/images/me.jpeg" alt="Photo de profil" class="profile-img">
             </div>
         </div>
     </div>
@@ -557,7 +558,7 @@
             <!-- PROJET 1 -->
             <div class="col-md-6 col-lg-4">
                 <div class="project-card">
-                    <img src="images/project1.jpg" alt="Projet bibliothèque">
+                    <img src="/public/images/atelier-pratique-formation-immobilier-espi-montpellier.jpeg" alt="Projet bibliothèque">
                     <div class="project-content">
                         <h4>READLY</h4>
                         <p>Site web de bibliothèque permettant de consulter et louer des livres avec une fonctionnalité d'audiobooks.</p>
@@ -572,7 +573,7 @@
             <!-- PROJET 2 -->
             <div class="col-md-6 col-lg-4">
                 <div class="project-card">
-                    <img src="images/project2.jpg" alt="Projet gestion">
+                    <img src="/public/images/atelier-pratique-formation-immobilier-espi-montpellier.jpeg" alt="Projet gestion">
                     <div class="project-content">
                         <h4>Application de gestion</h4>
                         <p>Application web permettant de gérer des données avec un système CRUD et une base de données MySQL.</p>
@@ -586,7 +587,7 @@
             <!-- PROJET 3 -->
             <div class="col-md-6 col-lg-4">
                 <div class="project-card">
-                    <img src="images/atelier-pratique-formation-immobilier-espi-montpellier.jpeg" alt="Atelier immobilier">
+                    <img src="/public/images/atelier-pratique-formation-immobilier-espi-montpellier.jpeg" alt="Atelier immobilier">
                     <div class="project-content">
                         <h4>Atelier immobilier</h4>
                         <p>Création d'un atelier immobilier pour présenter mes connaissances, mes compétences et mes projets.</p>
