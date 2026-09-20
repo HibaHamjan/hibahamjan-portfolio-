@@ -124,6 +124,9 @@
             padding: 25px;
             text-align: center;
         }
+        #lien{
+            text-decoration:none;
+        }
     </style>
 </head>
 
@@ -200,8 +203,8 @@
                 <div class="col-md-4">
                     <div class="work-card">
                         <div class="work-icon"><i class="fa-solid fa-laptop-code"></i></div>
-                        <h5><a href="#">Atelier 01</a></h5>
-                        <p>Conception Atelier 1.</p>
+                        <h5><a href="/public/docs/hiba_hamjan_atelier immobiliere.pdf" id="lien">Atelier 01</a></h5>
+                        <p>Atelier UML — Gestion d’une société immobilière</p>
                     </div>
                 </div>
                 <div class="col-md-4">
