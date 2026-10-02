@@ -16,12 +16,11 @@
   ],
   "routes": [
     {
-      "src": "/api/module/(.*)",
-      "dest": "/api/module/$1"
+      "handle": "filesystem"
     },
     {
-      "src": "/public/(.*)",
-      "dest": "/public/$1"
+      "src": "/api/module/(.*)",
+      "dest": "/api/module/$1"
     },
     {
       "src": "/(.*)",

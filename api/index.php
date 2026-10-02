@@ -376,7 +376,7 @@
             <div class="col-md-6">
                 <div class="module-card">
                     <a href="/api/module/m201.php" id="lien">
-                        <div class="module-icon"><i class="fa-brands fa-html5"></i></div>
+                        <div class="module-icon"><i class="fa-solid fa-pen-ruler"></i></div>
                         <div class="module-info">
                             <h5>Préparation d’un projet web</h5>
                             <p>Analyse • Planification • Conception</p>
@@ -389,7 +389,7 @@
             <div class="col-md-6">
                 <div class="module-card">
                     <a href="/api/module/m202.php" id="lien">
-                        <div class="module-icon"><i class="fa-brands fa-js"></i></div>
+                        <div class="module-icon"><i class="fa-solid fa-list-check"></i></div>
                         <div class="module-info">
                             <h5>Approche agile</h5>
                             <p>Scrum • Équipe • Organisation</p>
@@ -402,7 +402,7 @@
             <div class="col-md-6">
                 <div class="module-card">
                     <a href="/api/module/m203.php" id="lien">
-                        <div class="module-icon"><i class="fa-brands fa-php"></i></div>
+                        <div class="module-icon"><i class="fa-solid fa-database"></i></div>
                         <div class="module-info">
                             <h5>Gestion des données</h5>
                             <p>SQL • MySQL • Base de données</p>
@@ -415,7 +415,7 @@
             <div class="col-md-6">
                 <div class="module-card">
                     <a href="/api/module/m204.php" id="lien">
-                        <div class="module-icon"><i class="fa-solid fa-database"></i></div>
+                        <div class="module-icon"><i class="fa-solid fa-desktop"></i></div>
                         <div class="module-info">
                             <h5>Développement front-end</h5>
                             <p>HTML • CSS • JavaScript</p>
@@ -428,7 +428,7 @@
             <div class="col-md-6">
                 <div class="module-card">
                     <a href="/api/module/m205.php" id="lien">
-                        <div class="module-icon"><i class="fa-brands fa-bootstrap"></i></div>
+                        <div class="module-icon"><i class="fa-solid fa-server"></i></div>
                         <div class="module-info">
                             <h5>Développement back-end</h5>
                             <p>PHP • API • Serveur</p>
@@ -441,7 +441,7 @@
             <div class="col-md-6">
                 <div class="module-card">
                     <a href="/api/module/m206.php" id="lien">
-                        <div class="module-icon"><i class="fa-solid fa-code"></i></div>
+                        <div class="module-icon"><i class="fa-solid fa-cloud"></i></div>
                         <div class="module-info">
                             <h5>Création d’une application Cloud native</h5>
                             <p>Cloud • Déploiement • Services</p>
@@ -454,7 +454,7 @@
             <div class="col-md-6">
                 <div class="module-card">
                     <a href="/api/module/m207.php" id="lien">
-                        <div class="module-icon"><i class="fa-solid fa-diagram-project"></i></div>
+                        <div class="module-icon"><i class="fa-solid fa-cubes"></i></div>
                         <div class="module-info">
                             <h5>Projet de synthèse</h5>
                             <p>Projet • Intégration • Réalisation</p>
@@ -467,7 +467,7 @@
             <div class="col-md-6">
                 <div class="module-card">
                     <a href="/api/module/m208.php" id="lien">
-                        <div class="module-icon"><i class="fa-brands fa-git-alt"></i></div>
+                        <div class="module-icon"><i class="fa-solid fa-briefcase"></i></div>
                         <div class="module-info">
                             <h5>Intégration du milieu professionnel</h5>
                             <p>Stage • Communication • Professionnalisme</p>
