@@ -124,9 +124,6 @@
             padding: 25px;
             text-align: center;
         }
-        #lien{
-            text-decoration:none;
-        }
     </style>
 </head>
 
@@ -163,36 +160,36 @@
                 <div class="col-md-4">
                     <div class="work-card">
                         <div class="work-icon"><i class="fa-solid fa-file-code"></i></div>
-                        <h5><a href="#">TD 01</a></h5>
-                        <p>Description du TD 01.</p>
+                        <h5><a href="public/docs/td 1.mdj">TD 01</a></h5>
+                        <p>TD 01.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="work-card">
                         <div class="work-icon"><i class="fa-solid fa-file-code"></i></div>
-                        <h5><a href="#">TD 02</a></h5>
-                        <p>Description du TD 02.</p>
+                        <h5><a href="public/docs/TD1 USECASE.mdj">TD 02</a></h5>
+                        <p>TD 02 use case . </p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="work-card">
                         <div class="work-icon"><i class="fa-solid fa-file-code"></i></div>
-                        <h5><a href="#">TD 03</a></h5>
-                        <p>Description du TD 03.</p>
+                        <h5><a href="public/docs/td employe.mdj">TD 03</a></h5>
+                        <p>TD 03 use case employe.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="work-card">
                         <div class="work-icon"><i class="fa-solid fa-file-code"></i></div>
-                        <h5><a href="#">TD 04</a></h5>
-                        <p>Description du TD 04.</p>
+                        <h5><a href="public/docs/diagrame de sequance.mdj">TD 04</a></h5>
+                        <p>TD 04 diagramme de sequence.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="work-card">
                         <div class="work-icon"><i class="fa-solid fa-file-code"></i></div>
-                        <h5><a href="#">TD 05</a></h5>
-                        <p>Description du TD 05.</p>
+                        <h5><a href="public/docs/ex developer.mdj">TD 05</a></h5>
+                        <p>TD 05 developpeur.</p>
                     </div>
                 </div>
             </div>
@@ -203,22 +200,8 @@
                 <div class="col-md-4">
                     <div class="work-card">
                         <div class="work-icon"><i class="fa-solid fa-laptop-code"></i></div>
-                        <h5><a href="/public/docs/hiba_hamjan_atelier immobiliere.pdf" id="lien">Atelier 01</a></h5>
-                        <p>Atelier UML — Gestion d’une société immobilière</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="work-card">
-                        <div class="work-icon"><i class="fa-solid fa-laptop-code"></i></div>
-                        <h5><a href="#">Atelier 02</a></h5>
-                        <p>Conception Atelier 2.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="work-card">
-                        <div class="work-icon"><i class="fa-solid fa-laptop-code"></i></div>
-                        <h5><a href="#">Atelier 03</a></h5>
-                        <p>Conception Atelier 3.</p>
+                        <h5><a href="public/docs/hiba_hamjan_atelier immobiliere.pdf">Atelier 01</a></h5>
+                        <p>Atelier UML — Gestion d’une société immobilière.</p>
                     </div>
                 </div>
             </div>
@@ -240,8 +223,8 @@
                         <div class="work-icon">
                             <i class="fa-brands fa-figma"></i>
                         </div>
-                        <h5><a href="#">Atelier 1</a></h5>
-                        <p>Initiation à Figma et création des Wireframes.</p>
+                        <h5><a href="public/images/atelier 1.png">Atelier 1</a></h5>
+                        <p></p>
                     </div>
                 </div>
 
@@ -251,8 +234,8 @@
                         <div class="work-icon">
                             <i class="fa-brands fa-figma"></i>
                         </div>
-                        <h5><a href="#">Atelier 2</a></h5>
-                        <p>Conception de maquettes High-Fidelity.</p>
+                        <h5><a href="public/images/atelier 2.png">Atelier 2</a></h5>
+                        <p></p>
                     </div>
                 </div>
 
