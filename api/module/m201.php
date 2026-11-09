@@ -141,7 +141,7 @@
     <!-- Header -->
     <section class="module-header">
         <div class="container">
-            <h1>1. Préparation d’un projet web</h1>
+            <h1>Préparation d’un projet web</h1>
             <p>Analyse • Modélisation • Design UI/UX</p>
         </div>
     </section>
