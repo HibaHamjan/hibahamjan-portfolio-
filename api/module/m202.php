@@ -160,41 +160,6 @@
             <!-- Travaux Dirigés (TD 1 à 5) -->
             <h4 class="mb-4 text-secondary">Travaux Dirigés</h4>
             <div class="row g-4 mb-5">
-                <div class="col-md-4">
-                    <div class="work-card">
-                        <div class="work-icon"><i class="fa-solid fa-file-code"></i></div>
-                        <h5><a href="">TD 01</a></h5>
-                        <p>Description du TD 01.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="work-card">
-                        <div class="work-icon"><i class="fa-solid fa-file-code"></i></div>
-                        <h5><a href="">TD 02</a></h5>
-                        <p>TD 02 </p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="work-card">
-                        <div class="work-icon"><i class="fa-solid fa-file-code"></i></div>
-                        <h5><a href="public/docs/TD1 USECASE.mdj">TD 03</a></h5>
-                        <p>TD 03 </p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="work-card">
-                        <div class="work-icon"><i class="fa-solid fa-file-code"></i></div>
-                        <h5><a href="public/docs/diagrame de sequance.mdj">TD 04</a></h5>
-                        <p></p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="work-card">
-                        <div class="work-icon"><i class="fa-solid fa-file-code"></i></div>
-                        <h5><a href="public/docs/td employe.mdj">TD 05</a></h5>
-                        <p>TD 05 </p>
-                    </div>
-                </div>
             </div>
 
             <!-- Ateliers (1 à 3) -->
@@ -210,7 +175,7 @@
                 <div class="col-md-4">
                     <div class="work-card">
                         <div class="work-icon"><i class="fa-solid fa-laptop-code"></i></div>
-                        <h5><a href="hibaportfolio/public/docs/atelier2.pdf">Atelier 02</a></h5>
+                        <h5><a href="/public/docs/atelier2.pdf">Atelier 02</a></h5>
                         <p>Atelier 2 — Gestion de projet : Agile Scrum</p>
                     </div>
                 </div>
@@ -226,49 +191,7 @@
     </section>
 
     <!-- SECTION 2: FIGMA -->
-    <section class="bg-light">
-        <div class="container">
-            <div class="section-title">
-                <h2>Partie <span>Figma</span></h2>
-                <p>Conception d'interfaces et maquetage UI/UX</p>
-            </div>
-
-            <div class="row g-4">
-                <!-- Atelier 1 Figma -->
-                <div class="col-md-4">
-                    <div class="work-card">
-                        <div class="work-icon">
-                            <i class="fa-brands fa-figma"></i>
-                        </div>
-                        <h5><a href="#">Atelier 1</a></h5>
-                        <p>Initiation à Figma et création des Wireframes.</p>
-                    </div>
-                </div>
-
-                <!-- Atelier 2 Figma -->
-                <div class="col-md-4">
-                    <div class="work-card">
-                        <div class="work-icon">
-                            <i class="fa-brands fa-figma"></i>
-                        </div>
-                        <h5><a href="#">Atelier 2</a></h5>
-                        <p>Conception de maquettes High-Fidelity.</p>
-                    </div>
-                </div>
-
-                <!-- Atelier 3 Figma -->
-                <div class="col-md-4">
-                    <div class="work-card">
-                        <div class="work-icon">
-                            <i class="fa-brands fa-figma"></i>
-                        </div>
-                        <h5><a href="#">Atelier 3</a></h5>
-                        <p>Prototypage interactif et composants.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <!-- Retour -->
     <div class="container text-center py-5">
