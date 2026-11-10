@@ -182,7 +182,7 @@
                 <div class="col-md-4">
                     <div class="work-card">
                         <div class="work-icon"><i class="fa-solid fa-laptop-code"></i></div>
-                        <h5><a href="#">Atelier 03</a></h5>
+                        <h5><a href="/public/docs/atelier-git">Atelier 03</a></h5>
                         <p>Conception Atelier 3.</p>
                     </div>
                 </div>
