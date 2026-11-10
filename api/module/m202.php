@@ -153,8 +153,7 @@
     <section>
         <div class="container">
             <div class="section-title">
-                <h2>Partie <span>Diagramme de PERT et chemin critique</span></h2>
-                <p>Analyse et modélisation des systèmes</p>
+                
             </div>
 
             <!-- Travaux Dirigés (TD 1 à 5) -->
