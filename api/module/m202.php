@@ -183,7 +183,21 @@
                     <div class="work-card">
                         <div class="work-icon"><i class="fa-solid fa-laptop-code"></i></div>
                         <h5><a href="/public/docs/atelier-git">Atelier 03</a></h5>
-                        <p>Conception Atelier 3.</p>
+                        <p>Atelier 3 — Les bases </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="work-card">
+                        <div class="work-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                        <h5><a href="/public/docs/atelier2.pdf">Atelier 04</a></h5>
+                        <p>Atelier 4 — Gestion de projet : Agile Scrum</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="work-card">
+                        <div class="work-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                        <h5><a href="/public/docs/atelier2.pdf">Atelier 05</a></h5>
+                        <p>Atelier 5 — Gestion de projet : Agile Scrum</p>
                     </div>
                 </div>
             </div>
