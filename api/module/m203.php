@@ -150,7 +150,7 @@
     <section>
         <div class="container">
             <div class="section-title">
-                <h2>Partie <span>UML</span></h2>
+                <h2>Partie <span>Base de donnés relationéles (SQL)</span></h2>
                 <p>Analyse et modélisation des systèmes</p>
             </div>
 
@@ -200,7 +200,7 @@
                 <div class="col-md-4">
                     <div class="work-card">
                         <div class="work-icon"><i class="fa-solid fa-laptop-code"></i></div>
-                        <h5><a href="#">Atelier 01</a></h5>
+                        <h5><a href="/public/docs/atelier1m203.docx">Atelier 01</a></h5>
                         <p>Conception Atelier 1.</p>
                     </div>
                 </div>
@@ -226,7 +226,7 @@
     <section class="bg-light">
         <div class="container">
             <div class="section-title">
-                <h2>Partie <span>Figma</span></h2>
+                <h2>Partie <span>Base de données no SQL (Mongo DB)</span></h2>
                 <p>Conception d'interfaces et maquetage UI/UX</p>
             </div>
 
