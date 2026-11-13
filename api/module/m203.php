@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Préparation d’un projet web | Hiba Hamjan</title>
+    <title>Gestion de données | Hiba Hamjan</title>
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -141,8 +141,8 @@
     <!-- Header -->
     <section class="module-header">
         <div class="container">
-            <h1>1. Préparation d’un projet web</h1>
-            <p>Analyse • Modélisation • Design UI/UX</p>
+            <h1>Gestion de donnés </h1>
+           
         </div>
     </section>
 
@@ -156,43 +156,8 @@
 
             <!-- Travaux Dirigés (TD 1 à 5) -->
             <h4 class="mb-4 text-secondary">Travaux Dirigés</h4>
-            <div class="row g-4 mb-5">
-                <div class="col-md-4">
-                    <div class="work-card">
-                        <div class="work-icon"><i class="fa-solid fa-file-code"></i></div>
-                        <h5><a href="#">TD 01</a></h5>
-                        <p>Description du TD 01.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="work-card">
-                        <div class="work-icon"><i class="fa-solid fa-file-code"></i></div>
-                        <h5><a href="#">TD 02</a></h5>
-                        <p>Description du TD 02.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="work-card">
-                        <div class="work-icon"><i class="fa-solid fa-file-code"></i></div>
-                        <h5><a href="#">TD 03</a></h5>
-                        <p>Description du TD 03.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="work-card">
-                        <div class="work-icon"><i class="fa-solid fa-file-code"></i></div>
-                        <h5><a href="#">TD 04</a></h5>
-                        <p>Description du TD 04.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="work-card">
-                        <div class="work-icon"><i class="fa-solid fa-file-code"></i></div>
-                        <h5><a href="#">TD 05</a></h5>
-                        <p>Description du TD 05.</p>
-                    </div>
-                </div>
-            </div>
+           
+            
 
             <!-- Ateliers (1 à 3) -->
             <h4 class="mb-4 text-secondary">Ateliers</h4>
@@ -207,7 +172,7 @@
                 <div class="col-md-4">
                     <div class="work-card">
                         <div class="work-icon"><i class="fa-solid fa-laptop-code"></i></div>
-                        <h5><a href="#">Atelier 02</a></h5>
+                        <h5><a href="/public/docs/atelier2.docx">Atelier 02</a></h5>
                         <p>Conception Atelier 2.</p>
                     </div>
                 </div>
