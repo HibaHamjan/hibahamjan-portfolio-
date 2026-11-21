@@ -206,6 +206,13 @@
                         <p>Atelier 6 — cloudinary : github </p>
                     </div>
                 </div>
+                <div class="col-md-4">
+                    <div class="work-card">
+                        <div class="work-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                        <h5><a href="/public/docs/at7m202.docx">Atelier 07</a></h5>
+                        <p>Atelier 7 — sonarQube : gitLab </p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
