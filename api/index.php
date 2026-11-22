@@ -558,14 +558,14 @@
             <!-- PROJET 1 -->
             <div class="col-md-6 col-lg-4">
                 <div class="project-card">
-                    <img src="/public/images/atelier-pratique-formation-immobilier-espi-montpellier.jpeg" alt="Projet bibliothèque">
-                    <div class="project-content">
-                        <h4>READLY</h4>
-                        <p>Site web de bibliothèque permettant de consulter et louer des livres avec une fonctionnalité d'audiobooks.</p>
+                    <img src="/public/images/logo.jpg" alt="Projet chriwbie">
+                    <div class="project-content"><a href="https://chriwbie-en-clic.vercel.app/#/" id="lien">
+                        <h4>ChriWbie</h4>
+                        <p>Chriwbie est une plateforme web de petites annonces qui permet aux utilisateurs de publier, consulter et gérer des annonces en ligne. Elle facilite la mise en relation entre les personnes souhaitant vendre ou acheter différents produits et articles.</p>
                         <span class="badge-tech">HTML</span>
                         <span class="badge-tech">CSS</span>
-                        <span class="badge-tech">Bootstrap</span>
-                        <span class="badge-tech">PHP</span>
+                        <span class="badge-tech">js</span>
+                        <span class="badge-tech">PHP</span></a>
                     </div>
                 </div>
             </div>

@@ -183,6 +183,34 @@
                         <p>Conception Atelier 3.</p>
                     </div>
                 </div>
+                <div class="col-md-4">
+                    <div class="work-card">
+                        <div class="work-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                        <h5><a href="/public/docs/at4m203.docx">Atelier 04</a></h5>
+                        <p>Conception Atelier 4.</p>
+                    </div>
+                </div>
+                 <div class="col-md-4">
+                    <div class="work-card">
+                        <div class="work-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                        <h5><a href="/public/docs/at5m203.docx">Atelier 05</a></h5>
+                        <p>Conception Atelier 5.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="work-card">
+                        <div class="work-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                        <h5><a href="/public/docs/at6m203.docx">Atelier 06</a></h5>
+                        <p>Conception Atelier 6.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="work-card">
+                        <div class="work-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                        <h5><a href="/public/docs/at7m203.docx">Atelier 07</a></h5>
+                        <p>Conception Atelier 7.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
