@@ -214,8 +214,8 @@
                 <div class="col-md-4">
                     <div class="work-card">
                         <div class="work-icon"><i class="fa-solid fa-laptop-code"></i></div>
-                        <h5><a href="hibaportfolio/public/docs/AT8M203.docx">Atelier 07</a></h5>
-                        <p>Conception Atelier 7.</p>
+                        <h5><a href="/public/docs/AT8M203.docx">EFF</a></h5>
+                        <p>Conception Examen Fin Formation</p>
                     </div>
                 </div>
             </div>
