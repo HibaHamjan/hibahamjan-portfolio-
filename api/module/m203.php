@@ -211,6 +211,13 @@
                         <p>Conception Atelier 7.</p>
                     </div>
                 </div>
+                <div class="col-md-4">
+                    <div class="work-card">
+                        <div class="work-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                        <h5><a href="hibaportfolio/public/docs/AT8M203.docx">Atelier 07</a></h5>
+                        <p>Conception Atelier 7.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -220,7 +227,7 @@
         <div class="container">
             <div class="section-title">
                 <h2>Partie <span>Base de données no SQL (Mongo DB)</span></h2>
-                <p>Conception d'interfaces et maquetage UI/UX</p>
+                <p>not only sql</p>
             </div>
 
             <div class="row g-4">
@@ -231,6 +238,7 @@
                             <i class="fa-brands fa-figma"></i>
                         </div>
                         <h5><a href="/public/docs/at1mng.docx">Atelier 1</a></h5>
+                        <p>Appliquer des recherches avec find, des filtres et des projections dans MongoDB</p>
                         
                     </div>
                 </div>
