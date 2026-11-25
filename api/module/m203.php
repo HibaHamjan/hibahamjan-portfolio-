@@ -249,7 +249,7 @@
                         <div class="work-icon">
                             <i class="fa-brands fa-figma"></i>
                         </div>
-                        <h5><a href="#">Atelier 2</a></h5>
+                        <h5><a href="/public/docs/at2nosql203.docx">Atelier 2</a></h5>
                         <p>Conception de maquettes High-Fidelity.</p>
                     </div>
                 </div>
