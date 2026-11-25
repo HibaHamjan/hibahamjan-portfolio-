@@ -230,8 +230,8 @@
                         <div class="work-icon">
                             <i class="fa-brands fa-figma"></i>
                         </div>
-                        <h5><a href="#">Atelier 1</a></h5>
-                        <p>Initiation à Figma et création des Wireframes.</p>
+                        <h5><a href="/public/docs/at1mng.docx">Atelier 1</a></h5>
+                        
                     </div>
                 </div>
 
